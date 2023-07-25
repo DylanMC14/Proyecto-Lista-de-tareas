@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas</title>
+    <link rel="stylesheet" href="./Lista de tareas/Src/Styles/Project.css">
+</head>
+
+<body>
+<!---------------------------------------------------------------------------------------->
+    <!--& Caja grande &-->
+   <div class="boxmaster">
+
+        <!--& Titulo &-->
+      <div class="title">
+          <h1>Tareas pendientes</h1>
+      </div>
+
+        <!--& Parte superior &-->
+        <div class="head">
+            <div class="btn">
+                <form >
+                   <input type="text" name="ingreso" id="barr"> <!--& Ingreso de tareas &-->
+                   <button id="boton1" type="submit">Agregar</button>
+                </form>
+           </div>
+            <!--& Contador &-->
+            <div class="counter">
+
+                <div class="circle">
+                    <h1 id="suma">0</h1>
+                </div>
+
+                <h4> Tareas completadas</h4>
+            </div>
+
+        </div>
+
+        <!--& Tareas pendientes &-->
+
+        <!--& Lista de tareas &-->
+       <div class="task">
+
+          <div class="pendientes" id="ContenedorTareas">
+             <h5>No hay tareas</h5> <!-- Tareas a realizar -->
+          </div>
+          
+       </div>
+
+   </div> 
+<!---------------------------------------------------------------------------------------->
+</body>
+<script src="./Lista de tareas/Src/Js/Project.js"></script>
+</html>
