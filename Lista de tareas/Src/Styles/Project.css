@@ -1,4 +1,9 @@
 /* ---------------------------------------------------------------------------------------- */
+
+.font{
+  background-color: black;
+}
+
 /* --& Caja grande &-- */
 .boxmaster {
   display: flex;
@@ -9,6 +14,7 @@
 
 /* --& Titulo &-- */
 .title{
+  border: 5px outset rgb(156, 70, 247);
   background-color: aqua;
   display: flex;
   justify-content: center;
@@ -22,16 +28,32 @@
   justify-content: space-around;
 }
 .btn{
-    padding-top: 20px;
+  border: 5px groove rgb(243, 64, 79);
+  padding-top: 12px;
   background-color: blue;
 }
 #barr{
- 
+  border:3px ridge black ;
+  font-size: 25px;
+}
+#agrega{
+  border:3px ridge black ;
+  border-radius: 20% ;
+  font-size: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .counter{
+  border: 5px groove rgb(243, 64, 79);
   display: flex;
   flex-direction: row-reverse;
   background-color: yellow;
+}
+.counter2{
+  border: 5px groove rgb(243, 64, 79);
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: green;
 }
 .circle{
     display: flex;
@@ -43,23 +65,54 @@
   height: 20px;
   border: 6px inset rgb(189, 9, 9);
 }
-#suma{
-  /* -----------------Codigo sin utilizar------------------ */
+.circle2{
+  display: flex;
+background-color: cyan;
+border-radius: 100% ;
+margin-left: 30px;
+align-items: center;
+padding: 25px;
+height: 20px;
+border: 6px inset rgb(189, 9, 9);
 }
-
+#tc{
+  font-size: 23px;
+}
+#suma{
+  font-size: 40px;
+}
+#tp{
+  font-size: 23px;
+}
+#resta {
+  font-size: 40px;
+}
 /* ----------------------------------- */
 
 /* --& Lista de tareas &-- */
 .task{
+  border: 5px ridge rgb(238, 80, 240);
   padding-top: 20%;
-  background-color: brown;
+  background-color: beige;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+}
+#ayuda{
+background-color: darkred;
+font-size: 15px;
 }
 .pendientes{
   margin-bottom: 15%;
   display: flex;
+  flex-direction: column;
   background-color: chartreuse;
+  text-transform: capitalize;
+}
+#ContenedorTareas{
+  font-size: 22px;
+}
+.sintareas {
+  font-size: 20px;
 }
 
 /* ---------------------------------------------------------------------------------------- */

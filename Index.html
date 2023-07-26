@@ -7,49 +7,63 @@
     <link rel="stylesheet" href="./Lista de tareas/Src/Styles/Project.css">
 </head>
 
-<body>
-<!---------------------------------------------------------------------------------------->
+<body class="font">
+    <!---------------------------------------------------------------------------------------->
     <!--& Caja grande &-->
-   <div class="boxmaster">
+    <div class="boxmaster">
 
         <!--& Titulo &-->
       <div class="title">
           <h1>Tareas pendientes</h1>
-      </div>
-
+        </div>
+        
         <!--& Parte superior &-->
         <div class="head">
             <div class="btn">
-                <form >
-                   <input type="text" name="ingreso" id="barr"> <!--& Ingreso de tareas &-->
-                   <button id="boton1" type="submit">Agregar</button>
+                <form onsubmit="añadirtarea(event)">
+                    <input type="text" name="ingreso" placeholder="Nueva tarea" id="barr"> <!--& Ingreso de tareas &-->
+                    <button id="agrega" type="submit">+</button>
                 </form>
-           </div>
-            <!--& Contador &-->
+            </div>
+            <!--& Contador tareas completadas &-->
             <div class="counter">
-
+                
                 <div class="circle">
                     <h1 id="suma">0</h1>
                 </div>
-
-                <h4> Tareas completadas</h4>
+                
+                <h4 id="tc"> Tareas completadas</h4>
+            </div>
+            <!--& Contador de tareas incompletas &-->
+            <div class="counter2">
+                
+                <div class="circle2">
+                    <h1 id="resta">0</h1>
+                </div>
+                
+                <h4 id="tp">Tareas pendientes</h4>
             </div>
 
         </div>
 
         <!--& Tareas pendientes &-->
-
+        
         <!--& Lista de tareas &-->
-       <div class="task">
-
-          <div class="pendientes" id="ContenedorTareas">
-             <h5>No hay tareas</h5> <!-- Tareas a realizar -->
-          </div>
-          
-       </div>
-
-   </div> 
-<!---------------------------------------------------------------------------------------->
+        <div class="task">
+            <div id="ayuda">
+                <p>TASK</p>
+            </div>
+            
+            <div class="pendientes" >
+                <h1 id="ContenedorTareas">Tareas</h1>
+                <h5 class="sintareas">No hay tareas</h5> 
+            </div>
+            
+        </div>
+        
+        
+    </div> 
+    <!---------------------------------------------------------------------------------------->
 </body>
 <script src="./Lista de tareas/Src/Js/Project.js"></script>
 </html>
