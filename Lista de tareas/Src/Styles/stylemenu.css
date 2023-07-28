@@ -9,16 +9,16 @@
     padding-bottom: 200px; 
     }
 
-.cajamaestra {
+/* .cajamaestra {
     display: flex;
     flex-direction: column;
-}
+} */
 .cajacarrusel {
     background-size: 10px;
 }
-.cajamenu{
+/* .cajamenu{
     font-size: 50px;
-}
+} */
     
     /* <!----------------------------------------- Menú -----------------------------------------> */
     
@@ -32,16 +32,17 @@
     /* <!----------------------------------------- Boton -----------------------------------------> */
     
     .btn {
-    color: black;
+    color: gold;
     font-size: 40px;
-    text-shadow: 2px 2px white;
+    text-shadow: 2px 2px blue;
     }
     
     .btn:hover {
         cursor: pointer;
-        color: violet;
-        text-shadow: 2px 2px cyan;
-        background-color: rgba(255, 255, 255, 0.659)
+        color: black;
+        text-shadow: 2px 2px gold;
+        background-color: rgba(255, 255, 255, 0.659);
+        border: 3px inset black;
     } 
     
     /* <!----------------------------------------- Boton de Menú -----------------------------------------> */
@@ -54,11 +55,11 @@
         color: green;
         background-color: transparent;
         text-decoration: none;
-        text-shadow: 1px 1px violet;
+        text-shadow: 1px 1px black;
     }
     
     a:visited {
-      color: cyan;
+      color: gold;
       background-color: transparent;
       text-decoration: none;
     }
@@ -67,7 +68,7 @@
         color:black;
         background-color: transparent;
         text-decoration: underline;
-        text-shadow: 1px 1px cyan;
+        text-shadow: 1px 1px gold;
     }
     
     a:active {

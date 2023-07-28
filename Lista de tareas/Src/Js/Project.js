@@ -16,9 +16,41 @@ let totalDeTareas = 0;
 evaluartareas ();
 // --Variables-- \\
 
+// --Variables Encabezado-- \\
+const reloj = document.querySelector (".reloj");
+const fecha = document.querySelector (".fecha");
+const tiempo = document.querySelector (".tiempo");
+// --Variables Encabezado-- \\
+
+//----------------- Encabezado -----------------\\
+function relojdigital() {
+    const fh = new Date ();
+    dia= fh.getDate(),
+    mes= fh.getMonth()+1,
+    anio= fh.getFullYear(),
+    diasemana= fh.getDay();
+
+    dia= ("0"+dia).slice(-2);
+    mes= ("0"+dia).slice(-2);
+
+    let tiemporeal= fh.toLocaleTimeString();
+    tiempo.innerHTML= tiemporeal;
+
+    // let semana = ["Domingo","Lunes","Martes","Miercoles","Jueves","Viernes","Sabado"];
+    // let showSemana = (semana[diasemana])
+    // fecha.innerHTML= {showSemana}+{dia}-{mes}-{anio};
+};
+
+setInterval (() =>{
+    relojdigital()
+},1000)
+
+ //----------------- ================ -----------------\\
+                        // && \\
+//----------------- ================ -----------------\\
 
 //----------------- Agregar tarea -----------------\\
-const añadirtarea = event => {  
+function añadirtarea (event) {  
 event.preventDefault();
 const value =  barra.value
 console.log(value); 
@@ -104,25 +136,6 @@ tarea.addEventListener("click",tareanueva)  // --Agrega la tarea-- \\
             Decrementar1();
             Actualizar1();
             decremetarTotalDeTareas();
-        
-         
-            // Swal.fire({
-            //     title: 'Are you sure?',
-            //     text: "You won't be able to revert this!",
-            //     icon: 'warning',
-            //     showCancelButton: true,
-            //     confirmButtonColor: '#3085d6',
-            //     cancelButtonColor: '#d33',
-            //     confirmButtonText: 'Yes, delete it!'
-            //   }).then((result) => {
-            //     if (result.isConfirmed) {
-            //       Swal.fire(
-            //         'Deleted!',
-            //         'Your file has been deleted.',
-            //         'success'
-            //       )
-            //     }
-            //   })
 
         });
     };
@@ -188,4 +201,9 @@ function decremetarTotalDeTareas() {
     }
 }
 
+//----------------- ================ -----------------\\
+                      // && \\
+//----------------- ================ -----------------\\
+
+setdate()
 // ---------------------------------------------------------------------------------------- \\

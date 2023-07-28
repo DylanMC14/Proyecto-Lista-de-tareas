@@ -25,6 +25,24 @@
     border-radius: 5px;
     font: small-caps 100%/200% serif;
     text-decoration: underline;
+    padding-right: 360px;
+  }
+
+  .reloj {
+    display: flex;
+    flex-direction: column ;
+    font-size: 20px;
+    padding-right: 40%;
+    text-shadow:
+    0 0 5px rgb(17, 0, 255,1),
+    0 0 10px rgb(17, 0, 255,1),
+    0 0 20px rgb(17, 0, 255,1),
+    0 0 40px rgba(38,104,127,1),
+    0 0 80px rgba(38,104,127,1),
+    0 0 90px rgba(38,104,127,1),
+    0 0 100px rgba(38,104,127,1),
+    0 0 140px rgba(38,104,127,1),
+    0 0 180px rgba(38,104,127,1);
   }
   
   /* ----------------------------------- */
