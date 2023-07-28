@@ -1,12 +1,24 @@
 /* <!-----------------------------------\/-----------------------------------------\/-----------------------------------> */
 
-.fondo {background-image:url("../Images/gif\ paisaje.gif");
+.fondo {
+    background-image:url("../Images/gif\ paisaje.gif");
     background-repeat: no-repeat;
     background-position: center;
     background-size:100%;
     margin-top: 250px;
-    padding-bottom: 200px;
+    padding-bottom: 200px; 
     }
+
+.cajamaestra {
+    display: flex;
+    flex-direction: column;
+}
+.cajacarrusel {
+    background-size: 10px;
+}
+.cajamenu{
+    font-size: 50px;
+}
     
     /* <!----------------------------------------- Menú -----------------------------------------> */
     
@@ -14,6 +26,7 @@
         display: flex;
         justify-content: center;
         padding-bottom: 50px;
+        font: small-caps 100%/200% serif;
     }
     
     /* <!----------------------------------------- Boton -----------------------------------------> */

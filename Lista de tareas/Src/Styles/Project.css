@@ -1,8 +1,8 @@
 /* ---------------------------------------------------------------------------------------- */
 
 .font{
-  background-image: url('../Images/Fondo\ de\ lista\ de\ tareas\ \(Paisajes\).jpg');
-  background-size: 100%;
+  background-image: url('../Images/Fondo\ de\ lista\ de\ tareas\ \(paisajes\)\ 13.webp');
+  background-size: 120%;
   background-repeat: no-repeat;
 }
 
@@ -16,14 +16,15 @@
 
 /* --& Titulo &-- */
 .title{
-  background-image: url('../Images/Fondo\ de\ lista\ de\ tareas\ \(paisajes\)\ 10.jpg');
+  background-image: url('../Images/Fondo\ de\ lista\ de\ tareas\ \(paisajes\)\ 14.jpg');
   background-size: 100%;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   font: oblique bold 100% cursive;
-  color: aliceblue;
+  color: black;
   border-radius: 5px;
+  text-decoration: underline;
 }
 
 /* ----------------------------------- */
@@ -73,7 +74,7 @@
 }
 .counter2{
   background-image: url('../Images/Fondo\ de\ lista\ de\ tareas\ \(Paisajes\)\ 3.0.jpg');
-  background-size: 100%;
+  background-size: 110%;
   background-repeat: no-repeat;
   border-radius: 5px;
   display: flex;

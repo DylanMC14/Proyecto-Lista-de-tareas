@@ -61,7 +61,7 @@ tarea.addEventListener("click",tareanueva)  // --Agrega la tarea-- \\
 //----------------- ================ -----------------\\
 
     var eliminar = document.createElement("span"); // --Eliminar tarea-- \\
-        eliminar.textContent=" 〰️|🔥|";
+        eliminar.textContent=" ➖|🚀|";
         tarea.appendChild(eliminar);
 
         incrementar1();
@@ -75,7 +75,7 @@ tarea.addEventListener("click",tareanueva)  // --Agrega la tarea-- \\
 //----------------- ================ -----------------\\
 
         var check = document.createElement("span"); // --Tarea completa-- \\
-        check.textContent="|🍃|〰️ ";
+        check.textContent="|⭐️|➖ ";
         tarea.prepend(check);
 
         Actualizar2();
