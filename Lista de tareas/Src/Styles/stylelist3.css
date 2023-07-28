@@ -1,0 +1,159 @@
+/* ---------------------------------------------------------------------------------------- */
+
+.font{
+    background-image: url('../Images/Fondo\ de\ lista\ de\ tareas\ \(Paisajes\).jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  
+  /* --& Caja grande &-- */
+  .boxmaster {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* ----------------------------------- */
+  
+  /* --& Titulo &-- */
+  .title{
+    background-image: url('../Images/Fondo\ de\ lista\ de\ tareas\ \(paisajes\)\ 10.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    font: oblique bold 100% cursive;
+    color: aliceblue;
+    border-radius: 5px;
+  }
+  
+  /* ----------------------------------- */
+  
+  /* --& Parte superior &-- */
+  .head{
+    display: flex;
+    justify-content: space-around;
+  }
+  .btn{
+    background-image: url('../Images/Fondo\ de\ lista\ de\ tareas\ \(paisajes\)\ 11.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 12px;
+    margin-top: 15px;
+    border-radius: 5px;
+  }
+  #barr{
+    border:3px ridge black ;
+    font-size: 25px;
+    margin-left: 15px;
+    border-radius: 5px;
+    font: oblique bold 100% cursive;
+  }
+  #barr:hover {
+    cursor:pointer;
+  }
+  #agrega{
+    border:3px ridge black ;
+    border-radius: 20% ;
+    font-size: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  #agrega:hover {
+    cursor:pointer;
+  }
+  .counter{
+    background-image: url('../Images/Fondo\ de\ lista\ de\ tareas\ \(Paisajes\)\ 3.0.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 15px;
+    font: oblique bold 100% cursive;
+  }
+  .counter2{
+    background-image: url('../Images/Fondo\ de\ lista\ de\ tareas\ \(Paisajes\)\ 3.0.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 15px;
+    font: oblique bold 100% cursive;
+  }
+  .circle{
+     display: flex;
+    background-image: url('../Images/Fondo\ para\ las\ tareas\ 2.jpg');
+    border-radius: 100% ;
+    margin-left: 30px;
+    align-items: center;
+    padding: 25px;
+    height: 20px;
+    border: 6px inset gold;;
+  }
+  .circle2{
+    display: flex;
+    background-image: url('../Images/Fondo\ para\ las\ tareas\ 2.jpg');
+    border-radius: 100% ;
+    margin-left: 30px;
+    align-items: center;
+    padding: 25px;
+    height: 20px;
+    border: 6px inset gold;
+  }
+  #tc{
+    font-size: 23px;
+    color: orangered;
+  }
+  #suma{
+    font-size: 40px;
+    color: white;
+  }
+  #tp{
+    font-size: 23px;
+    color: orangered;
+  }
+  #resta {
+    font-size: 40px;
+    color: white;
+  }
+  /* ----------------------------------- */
+  
+  /* --& Lista de tareas &-- */
+  .task{
+    background-color: rgba(255, 255, 255, 0.714);
+    display: flex;
+    flex-direction: column;
+    margin: 30px 90px 90px 90px;
+    border-radius: 5px;
+  }
+  #ayuda{
+  background-color: rgba(255, 255, 255, 0.714);
+  
+  font-size: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font: oblique bold 80% cursive;
+  }
+  .pendientes{
+    margin-bottom: 15%;
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+  }
+  #ContenedorTareas{
+    font-size: 22px;
+    color: black;
+    text-indent: 20px;
+    font: oblique bold 120% cursive;
+  }
+  .sintareas {
+    color: black;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    font: oblique bold 120% cursive;
+  }
+  
+  /* ---------------------------------------------------------------------------------------- */
